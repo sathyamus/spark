@@ -6,3 +6,6 @@
 -> MAX_EXECUTORS = 4
 -> SPARK_CORE = 1  // remain it same
 -> DRIVER_MEMORY = 15G
+
+-> JVM_MAX_MEMORY = 16G
+-> JVM_MIN_MEMORY = 8G
