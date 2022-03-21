@@ -24,6 +24,12 @@
   - Use Flame graph to analyze those stats
   - Identify the memory, usage consumptions
 
+
+# SparkSession
+ 
+  - Need a Spark Session for each set of tests, in this way, the results of these tests will not affect others that will also require a Spark Session.
+  - Before, After each test we need to initialize and cleanup the session accordingly.
+
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
 
