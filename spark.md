@@ -30,6 +30,12 @@
   - Need a Spark Session for each set of tests, in this way, the results of these tests will not affect others that will also require a Spark Session.
   - Before, After each test we need to initialize and cleanup the session accordingly.
   
+### Launching Spark on YARN
+
+  - --deploy-mode
+  - In cluster mode, the Spark driver runs inside an application master process which is managed by YARN on the cluster, and the client can go away after initiating the application.
+  - In client mode, the driver runs in the client process, and the application master is only used for requesting resources from YARN.
+
 
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
