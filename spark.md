@@ -36,6 +36,9 @@
   - In cluster mode, the Spark driver runs inside an application master process which is managed by YARN on the cluster, and the client can go away after initiating the application.
   - In client mode, the driver runs in the client process, and the application master is only used for requesting resources from YARN.
 
+### Adding Other JARs
+  - --jars
+  - In cluster mode, the driver runs on a different machine than the client, so SparkContext.addJar won't work out of the box with files that are local to the client.
 
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
@@ -44,6 +47,7 @@
  - https://repository.apache.org/#nexus-search;quick~spark-core
  
  - https://spark.apache.org/docs/latest/building-spark.html
+ - https://spark.apache.org/docs/latest/running-on-yarn.html#launching-spark-on-yarn 
  - https://github.com/martinprobson/Spark-Scala-Maven-Example/blob/master/pom.xml
  - https://github.com/MrPowers/spark-fast-tests/commit/d8207c5cdb3a6c4d03adae8b9a571d3f506baffc
  - https://mrpowers.medium.com/creating-a-java-spark-project-with-maven-and-junit-614e8be96c3f
