@@ -40,6 +40,12 @@
   - --jars
   - In cluster mode, the driver runs on a different machine than the client, so SparkContext.addJar won't work out of the box with files that are local to the client.
 
+### Spark Integration Test errors
+  - Spark Task not serializable
+    - If any stream / object is not serialized, we may endup facing this error.
+    - Solution : Either change it to serialized type / use transient.
+
+
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
 
