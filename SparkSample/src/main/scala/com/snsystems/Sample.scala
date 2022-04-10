@@ -50,6 +50,7 @@ object Sample {
 
     var dfFromData3 = spark.createDataFrame(rowData, schema)
 
+    dfFromData3.show()
     //From Data (USING createDataFrame and Adding bean class)
 
   }

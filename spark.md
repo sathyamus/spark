@@ -40,6 +40,14 @@
   - --jars
   - In cluster mode, the driver runs on a different machine than the client, so SparkContext.addJar won't work out of the box with files that are local to the client.
 
+
+### Submitting Applications
+  - --master
+  - --deploy-mode
+  - --executor-memory
+  - The spark-submit script can load default Spark configuration values from a properties file and pass them on to your application. 
+  - By default, it will read options from conf/spark-defaults.conf in the Spark directory.
+
 ### Spark Integration Test errors
   - Spark Task not serializable
     - If any stream / object is not serialized, we may endup facing this error.
@@ -53,7 +61,10 @@
  - https://repository.apache.org/#nexus-search;quick~spark-core
  
  - https://spark.apache.org/docs/latest/building-spark.html
+ - https://spark.apache.org/docs/latest/submitting-applications.html
  - https://spark.apache.org/docs/latest/running-on-yarn.html#launching-spark-on-yarn 
+ - https://spark.apache.org/docs/latest/configuration.html
+
  - https://github.com/martinprobson/Spark-Scala-Maven-Example/blob/master/pom.xml
  - https://github.com/MrPowers/spark-fast-tests/commit/d8207c5cdb3a6c4d03adae8b9a571d3f506baffc
  - https://mrpowers.medium.com/creating-a-java-spark-project-with-maven-and-junit-614e8be96c3f

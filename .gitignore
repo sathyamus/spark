@@ -6,3 +6,4 @@
 .project
 .cache-main
 /target/
+.idea/
