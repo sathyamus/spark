@@ -29,6 +29,13 @@
  
   - Need a Spark Session for each set of tests, in this way, the results of these tests will not affect others that will also require a Spark Session.
   - Before, After each test we need to initialize and cleanup the session accordingly.
+
+### RDD Operations
+  - Transformations
+    - Are lazy
+    - Are computed only when an action requres a result to be returned
+  - Actions
+    - reduce, collect, count, first, take, foreach
   
 ### Launching Spark on YARN
 
