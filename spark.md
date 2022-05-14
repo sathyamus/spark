@@ -77,3 +77,6 @@
  - https://mrpowers.medium.com/creating-a-java-spark-project-with-maven-and-junit-614e8be96c3f
 
  - https://dev.to/adevintaspain/spark-unit-integration-and-end-to-end-tests-f52
+ - https://github.com/holdenk/spark-testing-base
+ - local[4] -- try with multi cores
+ - https://www.reddit.com/r/apachespark/comments/bo4x12/figured_out_a_configuration_option_that_speeds_up/
