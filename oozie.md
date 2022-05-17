@@ -50,3 +50,5 @@ $ oozie job -oozie http://localhost:11000/oozie -logs 0000014-130712212133144-oo
 
 Logs are available at:
 /var/log/oozie on the Oozie server.
+
+http://hadooptutorial.info/category/bi-big-data/
