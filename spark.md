@@ -36,6 +36,10 @@
     - Are computed only when an action requres a result to be returned
   - Actions
     - reduce, collect, count, first, take, foreach
+  - Repartition 
+    - To increase / decrease the number of partitions
+  - Coalesce
+    - To only decrease the number of partitions. This is optimized or improved version of repartition(), where movement of the data across the partitions is lower using coalesce.
   
 ### Launching Spark on YARN
 
