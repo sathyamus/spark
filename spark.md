@@ -64,6 +64,15 @@
     - If any stream / object is not serialized, we may endup facing this error.
     - Solution : Either change it to serialized type / use transient.
 
+### Spark speeds up test runtime
+    lazy val spark: SparkSession = {
+      SparkSession
+      .builder()
+      .master("local")
+      .appName("spark session")
+      .config("spark.sql.shuffle.partitions", "1")
+      .getOrCreate()
+    }
 
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
