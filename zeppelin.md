@@ -3,6 +3,8 @@
 
 #### Zeppelin Notebook
    - Choose Intrpreter as ilvy2
+   - Once you add paragraph with the query / command, Click on '>' play icon or press'Shift + Enter'.
+   - Results are displayed in output window, press 'Clear Output', to clear the results.
 
 ###### Reading json   
    ```
