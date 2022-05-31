@@ -24,7 +24,7 @@
      }
    ```
 
-
 #### Issues
-   - 500 Internal Server Error
-     - Restart All
+   - Problem : 500 Internal Server Error / session errors
+     - Ambari -> Click on 'Zeppelin Notebook'
+     - On the Actions button, select the option 'Restart All'
