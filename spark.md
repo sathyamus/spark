@@ -74,6 +74,10 @@
       .getOrCreate()
     }
 
+### Spark History
+   - Access the Spark History page from Ambari to view the Jobs, Stages and detailed view of spark job steps.
+   
+
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
 
