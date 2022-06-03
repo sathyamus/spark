@@ -76,7 +76,14 @@
 
 ### Spark History
    - Access the Spark History page from Ambari to view the Jobs, Stages and detailed view of spark job steps.
-   
+
+### Logs extraction
+   - Event Logs
+     - Ambari services -> 'Spark2' -> 'Spark2 History Server UI'
+     - Click on respective 'App ID', Download button for Event Logs
+     - https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-azure-spark-history-server
+   - Node manager logs
+     - Connect to worker node, with the location /var/log/hadoop-yarn/yarn
 
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
