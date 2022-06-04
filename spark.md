@@ -85,6 +85,9 @@
    - Node manager logs
      - Connect to worker node, with the location /var/log/hadoop-yarn/yarn
 
+#### Issues
+   - Container from Bad node
+
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
 
