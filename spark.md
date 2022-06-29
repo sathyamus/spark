@@ -87,6 +87,8 @@
 
 #### Issues
    - Container from Bad node
+   - ADSL Gen2 Storage account Latency Issues
+   - Kerberos Authentication Issues
 
  - https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#UserInterface
  - https://www.jetbrains.com/help/idea/run-debug-and-test-scala.html
