@@ -86,6 +86,9 @@
      - Connect to worker node, with the location /var/log/hadoop-yarn/yarn
 
 #### Issues
+   - shell / terminal, kerberos authentication session will expire, after session idle time
+     - Attempt re-login, before performing any actions like pushing manual messages to kafka / hdfs commands etc
+     - This will avoid 4xx client auth errors
    - Container from Bad node
    - ADSL Gen2 Storage account Latency Issues
    - Kerberos Authentication Issues
