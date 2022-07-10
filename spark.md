@@ -95,6 +95,7 @@
      - Attempt re-login, before performing any actions like pushing manual messages to kafka / hdfs commands etc
      - This will avoid 4xx client auth errors
    - Container from Bad node
+      - Kill exit code 143, OOM, spark.sql.shuffle.partitions or spark.default.parellelism
    - ADSL Gen2 Storage account Latency Issues
    - Kerberos Authentication Issues
 
