@@ -77,7 +77,9 @@
 ### Spark History
    - Access the Spark History page from Ambari to view the Jobs, Stages and detailed view of spark job steps.
      - Search for failed application_id in Yarn.
-     - /sparkhistory , search in Incomplete applications list
+     - Page will show all completed applications and link for Incomplete applications.
+     - /sparkhistory, search in Incomplete applications list.
+     - sparkhistory, can be checked for completed 
      - Look for failed Jobs, click on the description link for the respective Job Id to get the Jobs page.
      - From Jobs page, click on the failed stage, to get the detailed Stage view.
      - From Stage view page, click on respective executor to get the detailed logs for stdout, stderr for the failed Task.
