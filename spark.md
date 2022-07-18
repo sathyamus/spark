@@ -92,6 +92,9 @@
    - Node manager logs
      - Connect to worker node, with the location /var/log/hadoop-yarn/yarn
 
+### Spark Accumulators
+   - Spark by default provides accumulator methods for long, double and collection types.
+
 #### Issues
    - shell / terminal, kerberos authentication session will expire, after session idle time
      - Attempt re-login, before performing any actions like pushing manual messages to kafka / hdfs commands etc
