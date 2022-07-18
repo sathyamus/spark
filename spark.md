@@ -94,6 +94,9 @@
 
 ### Spark Accumulators
    - Spark by default provides accumulator methods for long, double and collection types.
+     - Long Accumulator
+     - Double Accumulator
+     - Collection Accumulator
 
 #### Issues
    - shell / terminal, kerberos authentication session will expire, after session idle time
