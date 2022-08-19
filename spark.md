@@ -128,3 +128,4 @@
  - https://www.reddit.com/r/apachespark/comments/bo4x12/figured_out_a_configuration_option_that_speeds_up/
  - https://sparkbyexamples.com/spark/spark-performance-tuning/
  - https://sparkbyexamples.com/spark/spark-dataframe-cache-and-persist-explained/
+ - https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/
